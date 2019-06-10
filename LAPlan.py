@@ -154,7 +154,7 @@ for i in dessert_list:
 
 gmap1.scatter( latitude_list, longitude_list, '#06d314', size = marker_size, marker = False )
 
-gmap1.scatter( [AirBNBLoc[0]], [AirBNBLoc[1]], '#d704e2', size = 350, marker = False )
+gmap1.scatter( [AirBNBLoc[0]], [AirBNBLoc[1]], '#d704e2', size = 150, marker = False )
 
 # Pass the absolute path
 gmap1.draw( os.getcwd()+"/index.html")
