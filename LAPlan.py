@@ -157,10 +157,10 @@ gmap1.scatter( latitude_list, longitude_list, '#06d314', size = marker_size, mar
 gmap1.scatter( [AirBNBLoc[0]], [AirBNBLoc[1]], '#d704e2', size = 350, marker = False )
 
 # Pass the absolute path
-gmap1.draw( os.getcwd()+"/LAMap.html")
+gmap1.draw( os.getcwd()+"/index.html")
 
-with open(os.getcwd()+"/LAMap.html", "r") as f:
+with open(os.getcwd()+"/index.html", "r") as f:
     a = f.read().replace("js?libraries","js?key=AIzaSyADJgEX4dAErgPBkx0npekVAj07MLjAbb8&libraries").replace("fillOpacity: 0.300000", "fillOpacity: 1.00000").replace("ROADMAP","ROADMAP,\nstyles: [{stylers: [{saturation: -100}]}]")
 
-with open(os.getcwd()+"/LAMap.html", "w") as f:
+with open(os.getcwd()+"/index.html", "w") as f:
     f.write(a)
