@@ -107,7 +107,8 @@ Salt & Straw
 Little Damage
 Toastea
 Twinkle Brown Sugar
-Honeymee'''.split("\n")
+Honeymee
+Mashti Malone's Ice Cream'''.split("\n")
 
 def getLoc(address):
     print('On address:' +address)
